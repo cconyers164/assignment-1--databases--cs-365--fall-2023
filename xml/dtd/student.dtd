@@ -7,7 +7,7 @@
     <!ELEMENT student (first_name, middle_Name, last_name, preferred_name, email, phone, status, 
     gpa, major, minor, status_enrollment, advisor, enrollment_data, graduation_date)>
 
-    <!--List of Student Elements-->
+    <!--This list contains all of the student elements-->
     <!ELEMENT first_name (#PCDATA)>
     <!ELEMENT middle_name (#PCDATA)>
     <!ELEMENT last_name (#PCDATA)>
@@ -22,8 +22,12 @@
     <!ELEMENT advisor (#PCDATA)>
     <!ELEMENT enrollment_date (#PCDATA)>
     <!ELEMENT graduation_date (#PCDATA)>
+    
+    <!ATTLIST student
+        StudentID CDATA #REQUIRED>
 
-    <!ATTLIST student studentID (#PCDATA)> #REQUIRED 
-        
+ 
+
+    
 
     
