@@ -15,13 +15,13 @@
         <status_enrollment>Full-time</status_enrollment>
         <advisor>Jenny Lee Lindberg</advisor>
         <enrollment_date>08-25-1998</enrollment_date>
-        <gradutation_date>05-01-2002</gradutation_date>
+        <graduation_date>05-01-2002</graduation_date>
     </student>
     <student StudentID="7645726">
         <first_name>Mike</first_name>
         <middle_name></middle_name>
-        <lastname>Inez</lastname>
-        <preferredname>Mike</preferredname>
+        <last_name>Inez</last_name>
+        <preferred_name>Mike</preferred_name>
         <email>mike@aic.com</email>
         <phone>213.444.3323</phone>
         <status>Second year</status>
@@ -31,6 +31,6 @@
         <status_enrollment>Full-time</status_enrollment>
         <advisor>Jerry Cantrell</advisor>
         <enrollment_date>08-25-1984</enrollment_date>
-        <gradutation_date>05-01-1988</gradutation_date>
+        <graduation_date>05-01-1988</graduation_date>
     </student>
 </student_details>

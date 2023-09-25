@@ -1,0 +1,89 @@
+:root {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: royalblue;
+}
+
+:root::before {
+    content: 'Student Information';
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    margin: 24px 0;
+}
+
+student {
+    display: block;
+    border: 1px solid #000;
+    border-width: 10px 1px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 10px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+student:before {
+    content: 'Student-ID: ' attr(StudentID);
+}
+
+student > *{
+    display: block;
+    padding: 2px;
+}
+
+first_name::before {
+    content: 'First Name: ' attr(first_name);
+}
+
+last_name::before {
+    content: 'Last Name: ' attr(last_name);
+}
+
+preferred_name::before {
+    content: 'Preffered Name: ' attr(preferred_name)
+}
+
+email::before {
+    content: 'Email: ' attr(email)
+}
+
+phone::before {
+    content: 'Phone Number: ' attr(phone)
+}
+
+status::before {
+    content: 'Current Year: ' attr(status)
+}
+
+gpa::before {
+    content: 'GPA: ' attr(GPA)
+}
+
+major::before {
+    content: 'Major: ' attr(Major)
+}
+
+minor::before {
+    content: 'Minor: ' attr(minor)
+}
+
+status_enrollment::before {
+    content: 'Enrollment Status: ' attr(status_enrollment)
+}
+
+advisor::before {
+    content: 'Advisor: ' attr(advisor)
+}
+
+enrollment_date::before{
+    content: 'Enrollment Date: ' attr(enrollment_date)
+}
+
+graduation_date::before{
+    content: 'Graduation Date: ' attr(graduation_date)
+}
+
