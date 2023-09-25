@@ -1,0 +1,29 @@
+<!--Root element: student_details, the + character indicates 
+    that this can only contain 1 or more student elements.
+-->
+    <!ELEMENT student_details (student+)>
+
+    <!--This is the structure of the student element-->
+    <!ELEMENT student (first_name, middle_Name, last_name, preferred_name, email, phone, status, 
+    gpa, major, minor, status_enrollment, advisor, enrollment_data, graduation_date)>
+
+    <!--List of Student Elements-->
+    <!ELEMENT first_name (#PCDATA)>
+    <!ELEMENT middle_name (#PCDATA)>
+    <!ELEMENT last_name (#PCDATA)>
+    <!ELEMENT preffered_name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT status (#PCDATA)>
+    <!ELEMENT gpa (#PCDATA)>
+    <!ELEMENT major (#PCDATA)>
+    <!ELEMENT minor (#PCDATA)>
+    <!ELEMENT status_enrollment (#PCDATA)>
+    <!ELEMENT advisor (#PCDATA)>
+    <!ELEMENT enrollment_date (#PCDATA)>
+    <!ELEMENT graduation_date (#PCDATA)>
+
+    <!ATTLIST student studentID (#PCDATA)> #REQUIRED 
+        
+
+    
