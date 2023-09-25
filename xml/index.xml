@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="css/style.css"?>
-<scholars>
+<student_details>
     <student StudentID="2983928">
-        <firstname>Emily</firstname>
-        <middlename></middlename>
-        <lastname>Kokal</lastname>
-        <preferredname>Emily</preferredname>
+        <first_name>Emily</first_name>
+        <middle_name></middle_name>
+        <last_name>Kokal</last_name>
+        <preferred_name>Emily</preferred_name>
         <email>emily@warpaint.com</email>
         <phone>213.123.7654</phone>
-        <status>third year</status>
+        <status>Third year</status>
         <gpa>3.8</gpa>
         <major>Political Science</major>
         <minor>Law</minor>
-        <statusenrollment>full-time</statusenrollment>
+        <status_enrollment>Full-time</status_enrollment>
         <advisor>Jenny Lee Lindberg</advisor>
-        <enrollmentdate>08-25-1998</enrollmentdate>
-        <gradutationdate>05-01-2002</gradutationdate>
+        <enrollment_date>08-25-1998</enrollment_date>
+        <gradutation_date>05-01-2002</gradutation_date>
     </student>
     <student StudentID="7645726">
-        <firstname>Mike</firstname>
-        <middlename></middlename>
+        <first_name>Mike</first_name>
+        <middle_name></middle_name>
         <lastname>Inez</lastname>
         <preferredname>Mike</preferredname>
         <email>mike@aic.com</email>
         <phone>213.444.3323</phone>
-        <status>second year</status>
+        <status>Second year</status>
         <gpa>4.0</gpa>
         <major>Business Management</major>
         <minor>Math</minor>
-        <statusenrollment>full-time</statusenrollment>
+        <status_enrollment>Full-time</status_enrollment>
         <advisor>Jerry Cantrell</advisor>
-        <enrollmentdate>08-25-1984</enrollmentdate>
-        <gradutationdate>05-01-1988</gradutationdate>
+        <enrollment_date>08-25-1984</enrollment_date>
+        <gradutation_date>05-01-1988</gradutation_date>
     </student>
-</scholars>
+</student_details>

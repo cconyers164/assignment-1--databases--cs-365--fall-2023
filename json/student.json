@@ -1,0 +1,36 @@
+{
+    "student_details": [
+        {
+            "first_name": "Emily",
+            "middle_name": "",
+            "last_name": "Kokal",
+            "preferred_name": "Emily",
+            "email": "emily@warpaint.com",
+            "phone": "213.123.7654",
+            "gpa": "3.8",
+            "major": "Political Science",
+            "minor": "Law",
+            "status_enrollment": "Full-time",
+            "advisor": "Jenny Lee Lindberg",
+            "enrollment_date": "08-25-1998",
+            "graduation_date": "05-01-2002"
+        },
+
+        {
+            "first_name": "Mike",
+            "middle_name": "",
+            "last_name": "Inez",
+            "preferred_name": "Mike",
+            "email": "mike@aic.com",
+            "phone": "213.444.3323",
+            "gpa": "4.0",
+            "major": "Business Management",
+            "minor": "Math",
+            "status_enrollment": "Full-time",
+            "advisor": "Jerry Cantrell",
+            "enrollment_date": "08-25-1984",
+            "graduation_date": "05-01-1988"
+
+        }
+    ]
+}
