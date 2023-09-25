@@ -44,7 +44,7 @@ last_name::before {
 }
 
 preferred_name::before {
-    content: 'Preffered Name: ' attr(preferred_name)
+    content: 'Preferred  Name: ' attr(preferred_name)
 }
 
 email::before {

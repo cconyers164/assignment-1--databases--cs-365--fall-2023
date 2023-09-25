@@ -11,7 +11,7 @@
     <!ELEMENT first_name (#PCDATA)>
     <!ELEMENT middle_name (#PCDATA)>
     <!ELEMENT last_name (#PCDATA)>
-    <!ELEMENT preffered_name (#PCDATA)>
+    <!ELEMENT preferred_name (#PCDATA)>
     <!ELEMENT email (#PCDATA)>
     <!ELEMENT phone (#PCDATA)>
     <!ELEMENT status (#PCDATA)>
